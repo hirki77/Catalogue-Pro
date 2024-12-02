@@ -1,0 +1,89 @@
+/* Style global */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Corps de la page */
+body {
+  background-color: #f4f7fa;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-size: 16px;
+}
+
+/* Conteneur principal */
+.container {
+  background-color: white;
+  border-radius: 10px;
+  padding: 40px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 90%;
+  max-width: 600px;
+  text-align: center;
+}
+
+/* Logo */
+.logo {
+  width: 441px; /* Largeur du logo */
+  height: 177px; /* Hauteur du logo */
+  margin-bottom: 20px; /* Espacement sous le logo */
+}
+
+/* Titre */
+header h1 {
+  font-size: 28px;
+  color: #333;
+  margin-bottom: 40px;
+}
+
+/* Boutons des jeux */
+.game-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.game-button {
+  background-color: #00a1e4; /* Bleu */
+  color: white;
+  padding: 12px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  width: 100%;
+}
+
+.game-button:hover {
+  background-color: #007ab8;
+}
+
+/* Boutons de navigation (Accueil et A Venir) */
+.nav-buttons {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  gap: 15px; /* Ajout de l'écart entre les boutons */
+}
+
+.nav-button {
+  background-color: #ff7f50; /* Orange */
+  color: white;
+  padding: 12px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  flex: 1; /* Cette propriété permet aux boutons de prendre la même largeur */
+}
+
+.nav-button:hover {
+  background-color: #e66a3a;
+}
